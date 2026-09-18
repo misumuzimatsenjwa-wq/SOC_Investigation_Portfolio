@@ -145,7 +145,6 @@ The malware subsequently executed a PowerShell WebClient script block (Event ID 
     }
   ]
 }
-```[cite: 2]
 
 ---
 
