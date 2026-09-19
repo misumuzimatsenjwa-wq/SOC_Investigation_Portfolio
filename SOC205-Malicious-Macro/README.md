@@ -95,7 +95,7 @@ The malware subsequently executed a PowerShell WebClient script block (Event ID 
 | Indicator | Type | Source | Assessment | Context |
 | :--- | :--- | :--- | :--- | :--- |
 | `1a819...96fb0` | SHA-256 Hash | VirusTotal | Malicious | Trojan attachment hash |
-| `92.204.221.16` | IPv4 Address | DNS/Log Analysis | Malicious | C2 Destination Server |
+| `92.204.221[.]16` | IPv4 Address | DNS/Log Analysis | Malicious | C2 Destination Server |
 | `WWW.GREYHATHACKER[.]NET` | Domain | DNS/Log Analysis | Malicious | Embedded C2 Domain |
 | `messbox[.]exe` | File Name | Endpoint Telemetry | Malicious | Initial payload download attempt |
 | `mess[.]exe` | File Name | Endpoint Telemetry | Malicious | Renamed executed secondary payload |
@@ -167,6 +167,6 @@ The malware subsequently executed a PowerShell WebClient script block (Event ID 
 
 1. **Host Isolation:** Immediately isolated endpoint `172.16.17.198` from the network to halt lateral movement.
 2. **Threat Eradication:** Purged the spear-phishing email containing `edit1-invoice[.]docm.zip` from user Jayne's inbox.
-3. **Blocklist Enforcement:** Submitted domain `WWW.GREYHATHACKER[.]NET` and destination IP `92.204.221.16` to perimeter security controls.
+3. **Blocklist Enforcement:** Submitted domain `WWW.GREYHATHACKER[.]NET` and destination IP `92.204.221[.]16` to perimeter security controls.
 4. **Credential Security:** Initiated an immediate password reset for user Jayne.
 5. **Security Awareness:** Recommended mandatory refresher phishing training focusing on email attachment verification.
