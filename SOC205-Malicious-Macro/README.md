@@ -45,45 +45,48 @@ Although an initial GET request for payload retrieval returned an HTTP 404 error
 ### 4.1 Initial Endpoint Inspection
 Investigation began on host **Jayne** (172.16.17.198). Endpoint logs revealed no process or event records, indicating anti-forensic evidence destruction by the threat.
 
-![Figure 2: Endpoint Telemetry](./images/figure2.png)  
+![Figure 2: Endpoint Telemetry](./images/01-alert-details.png)  
 *_Figure 2: Endpoint telemetry showing missing process and event records post-infection._*
 
 ### 4.2 Email Security Analysis
 Email logs confirmed delivery of a spear-phishing email on **Feb 28, 2024, at 08:12 UTC** with the attached archive `edit1-invoice[.]docm.zip`.
 
-![Figure 3: Phishing Email](./images/figure3.png)  
+![Figure 3: Phishing Email](./images/02-suspicious-email.png)  
 *_Figure 3: Phishing email delivered to user Jayne containing edit1-invoice[.]docm.zip._*
 
 ### 4.3 Execution & Malware Analysis
 Filtering log management records by host IP `172.16.17.198` confirmed archive extraction and file opening. OSINT lookup on VirusTotal scored the SHA-256 hash `1a81...6fb0` as malicious (**28/63 security vendors**).
 
-![Figure 4: File Extraction Log](./images/figure4.png)  
+![Figure 4: File Extraction Log](./images/04-eventLog-of-clicked-attachment.png)  
 *_Figure 4: Event log showing the user extracting and opening edit1-invoice.docm._*
 
-![Figure 5: VirusTotal Hash Detection](./images/figure5.png)  
+![Figure 5: VirusTotal Hash Detection](./images/05-fileHash-virusTotal-results.png)  
 *_Figure 5: VirusTotal threat intelligence report for edit1-invoice[.]docm._*
 
 ### 4.4 C2 Communication & Secondary Payload Delivery
 Execution of the macro triggered PowerShell, generating Sysmon Event ID 22 (DNS Query) for `WWW.GREYHATHACKER[.]NET` (resolved IP: `92.204.221[.]16`).
 
-![Figure 6: Sysmon DNS Query Log](./images/figure6.png)  
+![Figure 6: Sysmon DNS Query Log](./images/06-eventLog-of-DNS-query-results.png)  
 *_Figure 6: Sysmon Event ID 22 recording DNS query for C2 infrastructure via PowerShell._*
 
 An initial HTTP GET request to retrieve `messbox[.]exe` returned an HTTP 404 error.
 
-![Figure 7: HTTP GET Request Error](./images/figure7.png)  
+![Figure 7: HTTP GET Request Error](./images/07-http-GET-Request.png)  
 *_Figure 7: HTTP GET request to C2 infrastructure returning HTTP status 404.
 
 The malware subsequently executed a PowerShell WebClient script block (Event ID 4104) to download `messbox[.]exe` from `92.204.221[.]16`, save it locally as `mess[.]exe`, and launch the process. VirusTotal confirmed `mess[.]exe` as a malicious payload.
 
-![Figure 8: Remote Command Event Log](./images/figure8.png)  
+![Figure 8: Remote Command Event Log](./images/08-eventLog-of-executed-command.png)  
 *_Figure 8: Event log capturing remote command execution via PowerShell.
 
-![Figure 9: Script Block Logging](./images/figure9.png)  
+![Figure 9: Script Block Logging](./images/09-executed-script-block.png)  
 *_Figure 9: PowerShell Script Block logging (Event ID 4104) showing file download and execution commands.
 
-![Figure 10: Anti-Forensics Artifacts](./images/figure10.png)  
+![Figure 10: Anti-Forensics Artifacts](./images/10-what-hashFile-deletes.png)  
 *_Figure 10: VirusTotal behavior report detailing automated file and event log deletion capabilities.
+
+![Figure 11: Completed-Investigation](./images/11-investigation-conclusion.png)
+*_Figure 11: Completed SOC investigation on the alert.
 
 ---
 
