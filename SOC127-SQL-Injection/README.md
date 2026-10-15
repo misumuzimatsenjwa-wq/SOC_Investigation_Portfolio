@@ -96,7 +96,7 @@ I recommend that input validation and sanitization be implemented to ensure that
 ## 11. Evidence
 
 **Figure 1:** A screenshot of the alert details.  
-![Figure 1: Alert Details](images/figure1.png)
+![Figure 1: Alert Details](01-A-screenshot-of-the-alert-details.png)
 
 **Figure 2:** A screenshot of the attacker trying to find an open port for the attack.  
 ![Figure 2: Port Scanning](images/figure2.png)
