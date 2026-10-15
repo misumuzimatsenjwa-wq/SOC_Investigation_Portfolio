@@ -117,4 +117,4 @@ I recommend that input validation and sanitization be implemented to ensure that
 ![Figure 7: AbuseIPDB Results](07-A-screenshot-of-the-search-results-for-the-malicious-IP-address-on-AbuseIPDB.png)
 
 **Figure 8:** A screenshot of the closed alert.  
-![Figure 8: Closed Alert](images/figure8.png)
+![Figure 8: Closed Alert](08-A-screenshot-of-the-closed-alert.png)
