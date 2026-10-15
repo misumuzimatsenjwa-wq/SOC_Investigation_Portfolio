@@ -111,7 +111,7 @@ I recommend that input validation and sanitization be implemented to ensure that
 ![Figure 5: SQL Query](05-A-screenshot-of-a-log-showing-one-of-the-queries-sent-by-the-attacker-to-the-web-server.png)
 
 **Figure 6:** A screenshot of the search results for the malicious IP address on VirusTotal.  
-![Figure 6: VirusTotal Results](images/figure6.png)
+![Figure 6: VirusTotal Results](06-A-screenshot-of-the-search-results-for-the-malicious-IP-address-on-VirusTotal..png)
 
 **Figure 7:** A screenshot of the search results for the malicious IP address on AbuseIPDB.  
 ![Figure 7: AbuseIPDB Results](images/figure7.png)
