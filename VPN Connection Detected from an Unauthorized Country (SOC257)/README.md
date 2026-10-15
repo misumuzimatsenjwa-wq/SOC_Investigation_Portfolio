@@ -137,7 +137,7 @@ Confirmed true positive event. Incorrect MFA code inputs indicate failed VPN con
 ![Figure 4: A screenshot showing the result of the source IP address search on VirusTotal](./evidence/04-A-screenshot-showing-the-result-of-the-source-IP-address-search-on-VirusTotal.png)
 *_Figure 4: A screenshot showing the result of the source IP address search on VirusTotal._*
 
-![Figure 5: A screenshot showing the MFA OTP passcodes sent to the user Monica](./evidence/)
+![Figure 5: A screenshot showing the MFA OTP passcodes sent to the user Monica](./evidence/05-A-screenshot-showing-the-MFA-OTP-passcodes-sent-to-the-user-Monica.png)
 *_Figure 5: A screenshot showing the MFA OTP passcodes sent to the user Monica._*
 
 * **Figure 6:** A screenshot showing the playbook decision points and final close-out.
