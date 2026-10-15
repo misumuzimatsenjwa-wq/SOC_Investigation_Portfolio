@@ -99,7 +99,7 @@ I recommend that input validation and sanitization be implemented to ensure that
 ![Figure 1: Alert Details](01-A-screenshot-of-the-alert-details.png)
 
 **Figure 2:** A screenshot of the attacker trying to find an open port for the attack.  
-![Figure 2: Port Scanning](images/figure2.png)
+![Figure 2: Port Scanning](02-A-screenshot-of-the-attacker-trying-to-find-an-open-port-for-the-attack.png)
 
 **Figure 3:** A screenshot of a log showing the attacker initially used a web browser.  
 ![Figure 3: Browser Request](images/figure3.png)
