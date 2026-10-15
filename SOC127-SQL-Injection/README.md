@@ -108,7 +108,7 @@ I recommend that input validation and sanitization be implemented to ensure that
 ![Figure 4: SQLmap Usage](04-A-screenshot-of-a-log-showing-the-attacker-using-sqlmap.png)
 
 **Figure 5:** A screenshot of a log showing one of the queries sent by the attacker to the web server.  
-![Figure 5: SQL Query](images/figure5.png)
+![Figure 5: SQL Query](05-A-screenshot-of-a-log-showing-one-of-the-queries-sent-by-the-attacker-to-the-web-server.png)
 
 **Figure 6:** A screenshot of the search results for the malicious IP address on VirusTotal.  
 ![Figure 6: VirusTotal Results](images/figure6.png)
