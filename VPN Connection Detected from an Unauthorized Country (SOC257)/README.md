@@ -140,7 +140,7 @@ Confirmed true positive event. Incorrect MFA code inputs indicate failed VPN con
 ![Figure 5: A screenshot showing the MFA OTP passcodes sent to the user Monica](./evidence/05-A-screenshot-showing-the-MFA-OTP-passcodes-sent-to-the-user-Monica.png)
 *_Figure 5: A screenshot showing the MFA OTP passcodes sent to the user Monica._*
 
-![Figure 6: A screenshot showing the playbook decision points and final close-out](./evidence/)
+![Figure 6: A screenshot showing the playbook decision points and final close-out](./evidence/06-A-screenshot-showing-the-playbook-decision-points-and-final-close-out.png)
 *_Figure 6: A screenshot showing the playbook decision points and final close-out._*
 
 ![Figure 7: A screenshot of one of the emails sent to Monica's email with the MFA OTP code](./evidence/)
