@@ -146,5 +146,5 @@ Confirmed true positive event. Incorrect MFA code inputs indicate failed VPN con
 ![Figure 7: A screenshot of one of the emails sent to Monica's email with the MFA OTP code](./evidence/07-A-screenshot-of-one-of-the-emails-sent-to-Monica's-email-with-the-MFA-OTP-code.png)
 *_Figure 7: A screenshot of one of the emails sent to Monica's email with the MFA OTP code._*
 
-![Figure 8: A screenshot of the terminal commands used on Monica's device](./evidence/)
+![Figure 8: A screenshot of the terminal commands used on Monica's device](./evidence/08-A-screenshot-of-the-terminal-commands-used-on-Monica's-device.png)
 *_Figure 8: A screenshot of the terminal commands used on Monica's device._*
