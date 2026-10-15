@@ -105,7 +105,7 @@ I recommend that input validation and sanitization be implemented to ensure that
 ![Figure 3: Browser Request](03-A-screenshot-of-a-log-showing-the-attacker-initially-used-a-web-browser.png)
 
 **Figure 4:** A screenshot of a log showing the attacker using SQLmap.  
-![Figure 4: SQLmap Usage](images/figure4.png)
+![Figure 4: SQLmap Usage](04-A-screenshot-of-a-log-showing-the-attacker-using-sqlmap.png)
 
 **Figure 5:** A screenshot of a log showing one of the queries sent by the attacker to the web server.  
 ![Figure 5: SQL Query](images/figure5.png)
