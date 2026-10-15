@@ -131,11 +131,11 @@ Confirmed true positive event. Incorrect MFA code inputs indicate failed VPN con
 ![Figure 2: A screenshot showing the GET request made by the malicious IP address using user Monica's credentials](./evidence/02-A-screenshot-showing-the-GET-request-made-by-the-malicious-IP-address-using-user-Monica's-credentials.png)
 *_Figure 2:  A screenshot showing the GET request made by the malicious IP address using user Monica's credentials._*
 
-![Figure 3: A screenshot showing a failed VPN connection attempt]().evidence/
+![Figure 3: A screenshot showing a failed VPN connection attempt](.evidence/03-A-screenshot-showing-a-failed-VPN-connection-attempt.png)
 *_Figure 3: A screenshot showing a failed VPN connection attempt._*
 
-* **Figure 4:** A screenshot showing the result of the source IP address search on VirusTotal.
-  object:image{name=Figure4.png}
+![Figure 4: A screenshot showing the result of the source IP address search on VirusTotal](.evidence/)
+*_Figure 4: A screenshot showing the result of the source IP address search on VirusTotal._*
 
 * **Figure 5:** A screenshot showing the MFA OTP passcodes sent to the user Monica.
   object:image{name=Figure5.png}
