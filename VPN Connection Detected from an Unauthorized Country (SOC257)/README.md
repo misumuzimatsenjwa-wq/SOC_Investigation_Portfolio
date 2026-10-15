@@ -125,8 +125,7 @@ Confirmed true positive event. Incorrect MFA code inputs indicate failed VPN con
 
 ## 11. Evidence
 
-* **Figure 1:** Screenshot of the incident details for the alert.
-  object:image{./evidence/01-A-Screenshot-of-the-incident-details-for-the-alert.png}
+* ![Figure 1: Screenshot of the incident details for the alert](./evidence/01-A-Screenshot-of-the-incident-details-for-the-alert.png).
 
 * **Figure 2:** A screenshot showing the GET request made by the malicious IP address using user Monica's credentials.
   object:image{name=Figure2.png}
